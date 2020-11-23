@@ -1,4 +1,7 @@
+# Numbers Range For Prime Check
 numbers = range(1, 101)
+
+# Numbers List To Be Checked For Finding Prime
 numbers_check = range(2, 10)
 
 # Check Prime Function
