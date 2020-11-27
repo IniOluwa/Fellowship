@@ -6,6 +6,13 @@ numbers_check = range(2, 10)
 
 # Prime Lambda Function
 def prime_lambda(number):
+
+	# Check If Number Exists In Range
+	if number not in numbers:
+
+		# Return Number Not In Range Error
+		return "The Query Number Is Not In The Currently Allowed Range."
+
 	# Lambda Prime Check
 	for num in numbers_check:
 	    prime_list = filter(lambda x: x is not num and x % num is 0, numbers)
