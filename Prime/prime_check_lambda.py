@@ -13,9 +13,13 @@ def prime_lambda(number):
 		# Return Number Not In Range Error
 		return "The Query Number Is Not In The Currently Allowed Range."
 
+	# # Lambda Prime Check
+	# for num in numbers_check:
+	#     prime_list = reduce(lambda x: x is not num and x % num is 0, numbers)
+	# return prime_list
+
 	# Lambda Prime Check
-	for num in numbers_check:
-	    prime_list = filter(lambda x: x is not num and x % num is 0, numbers)
+	prime_list = filter(lambda x: x is not number and x % number is 0, numbers)
 	return prime_list
 
 # Number Input
