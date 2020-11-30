@@ -64,9 +64,9 @@ def prime_lambda(number):
 	# Lambda Prime Check
 	for num in numbers_check:
 		# Update Prime List With Lambda Results
-	    prime_list += reduce(lambda x: x % num is 0 and x is not num, numbers)
+	    prime_list += filter(lambda x: x % num is 0 and x is not num, numbers)
 	# Return Prime List Results
-	return prime_list
+	return set(prime_list)
 
 # Number Input
 print "Check If Number Is Prime In The Range Of 100."
