@@ -44,7 +44,7 @@
 # print prime_lambda(input("Input Your Number: "))
 
 # Numbers Range For Prime Check
-numbers = range(1, 201)
+numbers = range(1, 301)
 
 # Numbers List To Be Checked For Finding Prime
 numbers_check = range(2, 10)
